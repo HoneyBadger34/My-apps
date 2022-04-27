@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:  'Courier New', Courier, monospace;
+	
+	
+}
+
+input {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+	outline: none;
+	font-family:  'Courier New', Courier, monospace;
+}
+
+html, body, #root {
+	height: 100vh;
+}
+
+.transitionn{
+ 	transition: 0.3s;
+}
+
+.hiddenn {
+	display: none;
+}
+
+.done {
+	text-decoration:  line-through;
+	opacity: 30%;
+}
+
+.scroll::-webkit-scrollbar {
+	background: transparent;
+}
+
